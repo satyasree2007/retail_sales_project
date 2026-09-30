@@ -55,33 +55,3 @@ Stock on Hand
 Reorder Level
 Lead Time Days
 Project Workflow
-Retail Sales Dataset
-        |
-        v
-     HDFS
-        |
-        v
-   Apache Pig
-        |
-        v
-Data Cleaning & Processing
-        |
-        v
-     Apache Hive
-        |
-        v
-   Data Analysis
-        |
-        +----------------------+
-        |          |           |
-        v          v           v
- Regional     Monthly       Product
- Analysis     Revenue       Analysis
-        |          |           |
-        +----------+-----------+
-                   |
-                   v
-             Visualizations
-                   |
-                   v
-          Business Insights
